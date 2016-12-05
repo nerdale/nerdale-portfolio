@@ -20,3 +20,172 @@
 	font-weight: bold;
 	padding-top: 4rem;
 }
+.box-info{
+	width: 100%;
+	height: auto;
+	background-color: #FCB855;
+}
+.background-three{
+	width: 100%;
+	height: auto;
+	background-color: #FCB855;
+	padding-bottom: 2rem;
+}
+.background-four{
+	height: 45vh;
+}
+@-webkit-keyframes blink {
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink {
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@keyframes blink {
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+#typed-cursor{
+  opacity: 1;
+  font-weight: 100;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+.img-profile{
+	width: 50vh;
+	height: 50vh;
+}
+.box-one{
+	padding: 6rem 0;
+}
+#introduction{
+	font-size: 16px;
+	padding-top: 4rem;
+	color: #FFF;
+}
+#introduction span{
+	color: #FFF;
+}
+.title-skills h1{
+	color: #F68362;
+	font-size: 35px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	margin-top: 6rem;
+}
+.title-work h1{
+	color: #FFF;
+	font-size: 35px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;	
+}
+.title-contact h1{
+	color: #F68362;
+	font-size: 35px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;	
+}
+#animated-gif{
+	width: 50vh;
+	margin-top: 1rem;
+}
+.icon{
+	font-size: 70px;
+	color: #F68362;
+	cursor: pointer;
+}
+.html5:hover{
+	color: #E44D26;
+}
+.css3:hover{
+	color: #1B73BA;
+}
+.git:hover{
+	color: #F34F29;
+}
+.jquery:hover{
+	color: #006BA9;
+}
+.bootstrap:hover{
+	color: #542748;
+}
+.psd:hover{
+	color: #000859;
+}
+.ai:hover{
+	color: #FC5107;
+}
+.js:hover{
+	color: #FFD726;
+}
+.icon-cont-one, .icon-cont-two{
+	margin-top: 4rem;
+}
+.work{
+	padding-top: 4rem;
+}
+.fa{
+	font-size: 50px;
+	margin: 0 2rem;
+	color: #F68362;
+	cursor: pointer;
+	padding-top: 2rem;
+}
+.fa:hover{
+	color: #FCB855;
+}
+.contactme{
+	font-family: 'Galada', cursive;
+	color: #FCA367;
+}
+.foot{
+	background-color: #F68362;
+	height: 8vh;
+}
+h6{
+	color: #FFF;
+	padding-top: 1rem;
+}
+@media only screen and (max-width : 480px){
+	#introduction{
+	padding-top: 10px;
+	}
+	.down{
+		margin-top: 4rem;
+	}
+	.title-skills h1{
+	color: #FFF;
+	font-size: 25px;
+	}
+	.background-two{
+	width: 100%;
+	background-color: #F7A290;
+	}
+	.box-one{
+	padding: 1rem 0;
+	}
+	.title-skills h1{
+	color: #F68362;
+	margin-top: 2rem;
+	}
+	.text{
+		font-size: 60px;
+	}
+	.heart{
+		font-size: 55px;
+	}
+	.fa{
+	font-size: 30px;
+	}
+	.foot .container h6{
+	font-size: 13px;
+	}
+	#animated-gif{
+	margin-top: -2rem;
+	}
+}
