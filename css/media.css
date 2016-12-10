@@ -1,29 +1,29 @@
 @media only screen and (max-width : 768px){
 	.text{
-		font-size: 30px;
+		font-size: 26px;
 	}
 	.heart{
-	font-size: 25px;
+		font-size: 22px;
 	}
 	.box-one{
-    height: 710px;
-    padding-top: 0;
+    	height: 710px;
+    	padding-top: 0;
 	}
 	.box-info{
-	height: auto;
+		height: auto;
 	}
 	#skills{
-    height: auto;
+    	height: auto;
 	}
 	.gif{
-	width: 80%;
-	padding-top: 0;
+		width: 80%;
+		padding-top: 0;
 	}
 	.fa{
-	font-size: 40px;
-	margin: 0 1rem;
+		font-size: 40px;
+		margin: 0 1rem;
 	}
 	h6{
-	font-size: 12px;
+		font-size: 12px;
 	}
 }
