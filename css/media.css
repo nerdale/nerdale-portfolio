@@ -1,4 +1,4 @@
-@media only screen and (max-width : 480px){
+@media only screen and (max-width : 768px){
 	.text{
 		font-size: 30px;
 	}
@@ -6,11 +6,11 @@
 	font-size: 25px;
 	}
 	.box-one{
-    height: 700px;
+    height: 710px;
     padding-top: 0;
 	}
 	.box-info{
-	height: 920px;
+	height: auto;
 	}
 	#skills{
     height: auto;
@@ -21,7 +21,7 @@
 	}
 	.fa{
 	font-size: 40px;
-	margin: 0 2rem;
+	margin: 0 1rem;
 	}
 	h6{
 	font-size: 12px;
