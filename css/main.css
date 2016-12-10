@@ -23,14 +23,8 @@
 }
 
 /*NAV */
-.nav-color{
-	background-color: #E1004B;
-}
-.fixed{
-	position: fixed;
-	z-index: 4;
-	width: 100%;
-	top: 0;
+nav{
+	background-color: #E1004B !important;
 }
 .brand-logo img{
 	width: 150px;
