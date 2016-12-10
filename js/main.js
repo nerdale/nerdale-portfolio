@@ -1,8 +1,8 @@
 $( document ).ready(function(){
 	//side nav bar
-	$(".button-collapse").sideNav();
+	$('.button-collapse').sideNav();
 	//type effect
-    $("span.text-change").typed({
+    $('span.text-change').typed({
         strings: ["Dev.", "Design", "<CODE>"],
         typeSpeed: 60, // typing speed
         backDelay: 600, // pause before backspacing
@@ -22,6 +22,8 @@ $( document ).ready(function(){
        		}
    		});
 	});
+    $('.smoo').smoove({opacity: "0",  moveY   : "90px",});
 	$('.tooltipped').tooltip({delay: 50});
+
 });
 
