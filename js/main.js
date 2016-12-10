@@ -22,8 +22,10 @@ $( document ).ready(function(){
        		}
    		});
 	});
+    $('.scrollspy').scrollSpy();
     $('.smoo').smoove({opacity: "0",  moveY   : "90px",});
 	$('.tooltipped').tooltip({delay: 50});
+
 
 });
 

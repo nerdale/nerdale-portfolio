@@ -26,6 +26,9 @@
 nav{
 	background-color: #E1004B !important;
 }
+nav ul a.active {
+  background: rgba(0,0,0,0.2);
+}
 .brand-logo img{
 	width: 150px;
 	margin-top: 0.5rem;
