@@ -180,7 +180,7 @@ nav ul a.active {
 /* CONTACT */
 .background-four{
 	width: 100%;
-	height: 80vh;
+	height: auto;
 }
 .fa{
 	font-size: 50px;
