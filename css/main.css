@@ -1,39 +1,4 @@
-.nav-color{
-	background-color: #F68362;
-}
-.brand-logo img{
-	width: 150px;
-	margin-top: 0.5rem;
-}
-.fixed{
-	position: fixed;
-	z-index: 999;
-	width: 100%;
-}
-.heart{
-	font-size: 75px;
-	margin-top: 10rem;
-}
-.text{
-	font-size: 95px;
-	color: #FFF;
-	font-weight: bold;
-	padding-top: 4rem;
-}
-.box-info{
-	width: 100%;
-	height: auto;
-	background-color: #FCB855;
-}
-.background-three{
-	width: 100%;
-	height: auto;
-	background-color: #FCB855;
-	padding-bottom: 2rem;
-}
-.background-four{
-	height: 45vh;
-}
+/* TYPE EFFECT */
 @-webkit-keyframes blink {
   0% { opacity:1; }
   50% { opacity:0; }
@@ -56,48 +21,115 @@
   -moz-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite;
 }
+
+/*NAV */
+.nav-color{
+	background-color: #E1004B;
+}
+.fixed{
+	position: fixed;
+	z-index: 4;
+	width: 100%;
+	top: 0;
+}
+.brand-logo img{
+	width: 150px;
+	margin-top: 0.5rem;
+}
+#particles-js{
+	background: #181624;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+.heart{
+	font-size: 75px;
+	margin-top: 10rem;
+}
+.text{
+	font-size: 95px;
+	color: #FFF;
+	font-weight: bold;
+	z-index: 3;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+/*ABOUT ME*/
+.box-info{
+	width: 100%;
+	height: 100vh;
+	background-color: #E1004B;
+}
+.distinction{
+	color: #FFF;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+}
+#about{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	color: #FFF;	
+}
 .img-profile{
 	width: 50vh;
 	height: 50vh;
+	margin-top: 3rem;
 }
 .box-one{
-	padding: 6rem 0;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding-top: 8rem;
+    margin-bottom: 12rem;
 }
 #introduction{
 	font-size: 16px;
-	padding-top: 4rem;
-	color: #FFF;
+	color: #FFF;	
+}
+.lab{
+	width: 18vh;
+	margin-right: 1rem;
 }
 #introduction span{
-	color: #FFF;
+	background-color: #FFF;
+	color: #E1004B;
 }
-.title-skills h1{
-	color: #F68362;
-	font-size: 35px;
+/*SKILLS*/
+#skills{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding-top: 5rem;
+    background-color: #FFF;	
+}
+#skill-set, .title-contact h1{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 800;
-	margin-top: 6rem;
-}
-.title-work h1{
-	color: #FFF;
+	color: #3D3560;	
 	font-size: 35px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 800;	
 }
-.title-contact h1{
-	color: #F68362;
-	font-size: 35px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 800;	
+.gif{
+	width: 70%;
+	padding-top: 7rem;
+}
+.icon{
+	font-size: 60px;
+	color: #E1004B;
+	cursor: pointer;
+}
+.tool h5{
+	font-size: 18px;
+	font-weight: bold
+	color: #3D3560;
+}
+.tool p{
+	font-size: 14px;
 }
 #animated-gif{
 	width: 50vh;
 	margin-top: 1rem;
-}
-.icon{
-	font-size: 70px;
-	color: #F68362;
-	cursor: pointer;
 }
 .html5:hover{
 	color: #E44D26;
@@ -123,33 +155,73 @@
 .js:hover{
 	color: #FFD726;
 }
-.icon-cont-one, .icon-cont-two{
-	margin-top: 4rem;
+/* PROJECTS */
+.background-three{
+	width: 100%;
+	height: auto;
+	background-color: #E1004B;
+}
+.title-work h1{
+	color: #FFF;
+	font-size: 35px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;	
+}
+.right, .card a{
+	color: #E1004B;
 }
 .work{
 	padding-top: 4rem;
 }
+.card-title{
+	font-size: 20px !important;
+	color: #181624;
+}
+
+/* CONTACT */
+.background-four{
+	width: 100%;
+	height: 80vh;
+}
 .fa{
 	font-size: 50px;
 	margin: 0 2rem;
-	color: #F68362;
+	color: #3D3560;
 	cursor: pointer;
-	padding-top: 2rem;
+	padding-top: 5rem;
 }
 .fa:hover{
-	color: #FCB855;
+	color: #2C2649;
 }
-.contactme{
-	font-family: 'Galada', cursive;
-	color: #FCA367;
+.contactme h4, .contactme h5{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	color: #E1004B;
 }
-.foot{
-	background-color: #F68362;
-	height: 8vh;
+.contactme h4{
+	font-size: 30px;
+}
+.cv{
+	padding-top: 2rem;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	color: #E1004B;
+	font-size: 20px;
+}
+.btn-floating{
+	background-color: #E1004B !important;
+	padding-bottom: 2rem;
+}
+
+/* FOOTER */
+footer{
+	background-color: #E1004B;
+	height: 3.5rem;
 }
 h6{
 	color: #FFF;
 	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 @media only screen and (max-width : 480px){
 	#introduction{

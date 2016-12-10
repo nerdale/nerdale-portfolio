@@ -1,10 +1,6 @@
 $( document ).ready(function(){
 	//side nav bar
 	$(".button-collapse").sideNav();
-
-    //parallax
-    $('.parallax').parallax();
-
 	//type effect
     $("span.text-change").typed({
         strings: ["Dev.", "Design", "<CODE>"],
@@ -12,7 +8,6 @@ $( document ).ready(function(){
         backDelay: 600, // pause before backspacing
         callback: function () { $(this) }
     });
-
     //smooth scrolling
     $(function(){
     	$('a[href*="#"]').click(function() {
@@ -28,6 +23,5 @@ $( document ).ready(function(){
    		});
 	});
 	$('.tooltipped').tooltip({delay: 50});
-
 });
 

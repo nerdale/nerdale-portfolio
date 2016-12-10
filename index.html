@@ -9,24 +9,24 @@
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
 	<script src="https://use.fontawesome.com/7873633050.js"></script>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Galada|Raleway:800" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<section>
 		<div class="fixed">
 		    <nav class="nav-color">
-		    	<div class="nav-wrapper container">
+		    	<div class="nav-wrapper container ">
 			    	<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 			    	<a href="index.html" class="brand-logo"><img src="img/logotype.svg" alt=""></a>
 			      	<ul class="right hide-on-med-and-down">
-						<li><a href="#about">About Me</a></li>
+						<li><a href="#about-me">About Me</a></li>
 						<li><a href="#skills">Skills</a></li>
 						<li><a href="#projects">Projects</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 					<ul class="side-nav" id="mobile-demo">
-						<li><a href="#about">About Me</a></li>
+						<li><a href="#about-me">About Me</a></li>
 						<li><a href="#skills">Skills</a></li>
 						<li><a href="#projects">Projects</a></li>
 						<li><a href="#contact">Contact</a></li>
@@ -35,194 +35,228 @@
 		    </nav>
 		</div>
 	</section>
-	<!-- ADDING PARALLAX + EFFECT TYPE -->
-	<section class="background-one"> 
-		<div class="parallax-container">
-			<h1 class="center-align">
-				<div class="parallax"><img src="img/background.jpg"></div>
-				<div class="text">I <i class="material-icons heart">favorite</i> <span class="text-change"></span></div>
-			</h1>
-		</div>
-	</section>
+	<div id="particles-js">
+		<div class="text">I <i class="material-icons heart">favorite</i><span class="text-change"></span></div>
+	</div>
 	<!-- ADDING BOX INFO ABOUT ME -->
-	<section class="box-info">
-		<div class="container" id="about">
+	<section class="box-info" id="about-me">
+		<div class="container">
 			<div class="row box-one">
 				<div class="col s12 m6 center-align">
 					<img src="img/alexandra.jpg" alt="profile-alexandra" class="circle img-profile">
 				</div>			
 				<div class="col s12 m6">
-					<p id="introduction">¡Hi! my name is <span>Alexandra Neira</span>, I'm a graphic designer and web developer. I'm 30 years old and <span>I love technology, design and learning new things about front-end developer. </span> In my free time I enjoy reading tutorials about technicals of development and watching documentaries about humans stories, techonology and music.</p>
+				<h3 id="about">ABOUT ME</h3>
+				<p id="introduction">¡Hi! my name is <span>Alexandra Neira</span>, I'm a Graphic Designer and Junior Front End Developer. I'm 30 years old and <span>I love technology, design and learning new things about front-end developer.</span> In my free time I enjoy reading tutorials about technicals of development and watching documentaries about humans stories, techonology and music. I work based on the <span>agile methodology</span> improving the speed and efficiency of each project.</p>
+				<p class="distinction">&#60;LABORATORIA DISTINCTION&#62;</p>
+				<img src="img/5mejores.png" alt="top-five" class="responsive-img lab">
+				<img src="img/unicornio.png" alt="unicorn" class="responsive-img lab">
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- ADDING SKILL SET -->
 	<section id="skills">
 		<div class="container">
 			<div class="row">
-				<div class="center-align title-skills">
-					<div class="col s12 col m12">
-						<h1>&#60;TECHNICAL SKILL SET&#62;</h1>
-					</div>
+				<div class="col s12 m12 center-align">
+					<h3 id="skill-set">TECHNICAL SKILL SET</h3>
 				</div>
-			</div>		
+			</div>
 			<div class="row">
-				<div class="col m6">
-					<img src="img/animated_gif.gif" alt="animated" id="animated-gif">
-				</div>
-				<div class="col m6 center-align">
-					<div class="row icon-cont-one">
-						<div class="col m3 col s6">
-						<i class="devicon-html5-plain icon html5 tooltipped" data-position="bottom" data-delay="50" data-tooltip="HTML 5"></i>
-						</div>
-						<div class="col m3 col s6">
-							<i class="devicon-css3-plain icon css3 tooltipped" data-position="bottom" data-delay="50" data-tooltip="CSS 3"></i>
-						</div>
-						<div class="col m3 col s6 down">
-							<i class="devicon-git-plain icon git tooltipped" data-position="bottom" data-delay="50" data-tooltip="Git"></i>
-						</div>												
-						<div class="col m3 col s6 down">
-							<i class="devicon-jquery-plain-wordmark icon jquery tooltipped" data-position="bottom" data-delay="50" data-tooltip="jQuery"></i>
-						</div>																			
+				<div class="col m2">
+					<div class="tool">
+						<i class="devicon-html5-plain icon html5"></i>
+						<h5>HTML 5</h5>
+						<p>Markup language for the structure and presentation of Web contents.</p>
 					</div>
-
-					<div class="row icon-cont-two">
-						<div class="col m3 col s6">
-							<i class="devicon-bootstrap-plain icon bootstrap tooltipped" data-position="bottom" data-delay="50" data-tooltip="Bootstrap"></i>
-						</div>						
-						<div class="col m3 col s6">
-							<i class="devicon-photoshop-plain icon psd tooltipped" data-position="bottom" data-delay="50" data-tooltip="Photoshop"></i>
-						</div>
-						<div class="col m3 col s6 down">
-							<i class="devicon-illustrator-plain icon ai tooltipped" data-position="bottom" data-delay="50" data-tooltip="Illustrator"></i>
-						</div>											
-						<div class="col m3 col s6 down">
-							<i class="devicon-javascript-plain icon js tooltipped" data-position="bottom" data-delay="50" data-tooltip="Javascript"></i>
-						</div>																			
-					</div>					
+					<div class="tool">
+						<i class="devicon-bootstrap-plain icon bootstrap"></i>
+						<h5>BOOTSTRAP</h5>
+						<p>Free and open source Front-End framework for designing websites.</p>
+					</div>
+				</div>
+				<div class="col m2">
+					<div class="tool">
+						<i class="devicon-css3-plain icon css3"></i>
+						<h5>CSS 3</h5>
+						<p>Style sheet language used for describing the presentation of Web contents.</p>
+					</div>
+					<div class="tool">
+						<i class="devicon-git-plain icon git"></i>
+						<h5>GIT</h5>
+						<p>Free and open source distributed version control system.</p>
+					</div>
+				</div>				
+				<div class="col m4 center-align">
+					<img src="img/animated.gif" alt="responsive-web" class="responsive-img gif">
+				</div>
+				<div class="col m2">
+					<div class="tool">
+						<i class="devicon-javascript-plain icon js"></i>
+						<h5>JAVASCRIPT</h5>
+						<p>JavaScript is an interpreted programming language.</p>
+					</div>
+					<div class="tool">
+						<i class="devicon-photoshop-plain icon psd"></i>
+						<h5>PHOTOSHOP</h5>
+						<p>Raster graphics editor developed by Adobe Systems.</p>
+					</div>
+				</div>
+				<div class="col m2">
+					<div class="tool">
+						<i class="devicon-jquery-plain-wordmark icon jquery "></i>
+						<h5>jQuery</h5>
+						<p>JavaScript library designed to simplify the client-side scripting of HTML.</p>
+					</div>
+					<div class="tool">
+						<i class="devicon-illustrator-plain icon ai"></i>
+						<h5>ILLUSTRATOR</h5>
+						<p>Vector graphics editor developed by Adobe Systems.</p>
+					</div>
 				</div>												
-			</div>	
-		</div>
-	</section>
-	<!-- ADDING PROJECTS SECTION -->
-	<section class="background-three">
-		<div class="container work" id="projects">
-		<div class="row">
-			<div class="col m12 col s12 center-align title-work">
-				<h1>&#60;PROJECTS&#62;</h1>
 			</div>
 		</div>
+	</section>
+
+	<!-- ADDING PROJECTS SECTION -->
+	<section class="background-three" id="projects">
+		<div class="container work">
 			<div class="row">
-        		<div class="col s12 m4">
-          			<div class="card">
-            			<div class="card-image">
-              				<img src="img/trello.png">
-            			</div>
-            			<div class="card-content">
-              				<p>Project made with Javascript and Bootstrap.</p>
-            			</div>
-            			<div class="card-action">
-              				<a href="https://github.com/nerdale/trello" target="_blank">Code</a><a href="https://nerdale.github.io/trello/" target="_blank">Demo</a>
-            			</div>
-          			</div>
-        		</div>
-        		<div class="col s12 m4">
-          			<div class="card">
-            			<div class="card-image">
-              				<img src="img/todoapp.png">
-            			</div>
-            			<div class="card-content">
-              				<p>Project made with Javascript and Bootstrap.</p>
-            			</div>
-            			<div class="card-action">
-              				<a href="https://github.com/nerdale/twitter" target="_blank">Code</a><a href="https://nerdale.github.io/twitter/" target="_blank">Demo</a>
-            			</div>
-          			</div>
-        		</div>
-        		<div class="col s12 m4">
-          			<div class="card">
-            			<div class="card-image">
-              				<img src="img/creamy.png">
-            			</div>
-            			<div class="card-content">
-              				<p>Project made with HTML 5 and Bootstrap.</p>
-            			</div>
-            			<div class="card-action">
-              				<a href="https://github.com/nerdale/creamy-theme" target="_blank">Code</a><a href="https://nerdale.github.io/creamy-theme/" target="_blank">Demo</a>
-            			</div>
-          			</div>
-        		</div>        		        		
-      		</div>
-			<div class="row">
-        		<div class="col s12 m4">
-          			<div class="card">
-            			<div class="card-image">
-              				<img src="img/bunny.png">
-            			</div>
-            			<div class="card-content">
-              				<p>Project made with HTML 5 and CSS3.</p>
-            			</div>
-            			<div class="card-action">
-              				<a href="https://github.com/nerdale/bunny-love" target="_blank">Code</a><a href="https://nerdale.github.io/bunny-love/" target="_blank">Demo</a>
-            			</div>
-          			</div>
-        		</div>
-        		<div class="col s12 m4">
-          			<div class="card">
-            			<div class="card-image">
-              				<img src="img/comunidad.jpg">
-            			</div>
-            			<div class="card-content">
-              				<p>Project made with HTML 5 and CSS3.</p>
-            			</div>
-            			<div class="card-action">
-              				<a href="https://github.com/nerdale/comunidad-sostenible" target="_blank">Code</a><a href="https://nerdale.github.io/comunidad-sostenible/" target="_blank">Demo</a>
-            			</div>
-          			</div>
-        		</div>
-        		<div class="col s12 m4">
-          			<div class="card">
-            			<div class="card-image">
-              				<img src="img/code-girl.png">
-            			</div>
-            			<div class="card-content">
-              				<p>Project made with HTML 5 and Bootstrap.</p>
-            			</div>
-            			<div class="card-action">
-              				<a href="https://github.com/nerdale/coder-girl" target="_blank">Code</a><a href="https://nerdale.github.io/coder-girl/" target="_blank">Demo</a>
-            			</div>
-          			</div>
-        		</div>        		        		
-      		</div>      		
-		</div>
+				<div class="col m12 col s12 center-align title-work">
+					<h1>PROJECTS</h1>
+				</div>
+			</div>
+				<div class="row">
+	        		<div class="col s12 m4">
+	  					<div class="card">
+	    					<div class="card-image waves-effect waves-block waves-light">
+	    						<img class="activator" src="img/meet.png">
+	    					</div>
+	    					<div class="card-content">
+	    						<span class="card-title activator">Awesome Rank<i class="material-icons right">more_vert</i></span>
+	    						<p><a href="https://github.com/nerdale/awesome-rank" target="_blank">CODE</a> <a href="http://awesome-rank.herokuapp.com/" target="_blank">DEMO</a></p>
+	    					</div>
+	    					<div class="card-reveal">
+	      						<span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+	      						<p>Collaborative project made with Materialize, Javascript, jQuery, NPM and Stylus.</p>
+	    					</div>
+	  					</div>
+	        		</div>
+	        		<div class="col s12 m4">
+	  					<div class="card">
+	    					<div class="card-image waves-effect waves-block waves-light">
+	    						<img class="activator" src="img/todoapp.png">
+	    					</div>
+	    					<div class="card-content">
+	    						<span class="card-title activator">To Do App<i class="material-icons right">more_vert</i></span>
+	    						<p><a href="https://github.com/nerdale/twitter" target="_blank">CODE</a> <a href="https://nerdale.github.io/twitter/" target="_blank">DEMO</a></p>
+	    					</div>
+	    					<div class="card-reveal">
+	      						<span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+	      						<p>Project made with Javascript and Bootstrap.</p>
+	    					</div>
+	  					</div>
+	        		</div>
+	        		<div class="col s12 m4">
+	  					<div class="card">
+	    					<div class="card-image waves-effect waves-block waves-light">
+	    						<img class="activator" src="img/trello.png">
+	    					</div>
+	    					<div class="card-content">
+	    						<span class="card-title activator">Trello<i class="material-icons right">more_vert</i></span>
+	    						<p><a href="https://github.com/nerdale/trello" target="_blank">CODE</a> <a href="https://nerdale.github.io/trello/" target="_blank">DEMO</a></p>
+	    					</div>
+	    					<div class="card-reveal">
+	      						<span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+	      						<p>Project made with Javascript and Bootstrap.</p>
+	    					</div>
+	  					</div>
+	        		</div> 		
+				</div>
+				<div class="row">
+	        		<div class="col s12 m4">
+	  					<div class="card">
+	    					<div class="card-image waves-effect waves-block waves-light">
+	    						<img class="activator" src="img/bunny.png">
+	    					</div>
+	    					<div class="card-content">
+	    						<span class="card-title activator">Bunny's Love<i class="material-icons right">more_vert</i></span>
+	    						<p><a href="https://github.com/nerdale/bunny-love" target="_blank">CODE</a> <a href="https://nerdale.github.io/bunny-love/" target="_blank">DEMO</a></p>
+	    					</div>
+	    					<div class="card-reveal">
+	      						<span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+	      						<p>Project made with HTML 5 and CSS3.</p>
+	    					</div>
+	  					</div>
+	        		</div>			
+	        		<div class="col s12 m4">
+	  					<div class="card">
+	    					<div class="card-image waves-effect waves-block waves-light">
+	    						<img class="activator" src="img/comunidad.jpg">
+	    					</div>
+	    					<div class="card-content">
+	    						<span class="card-title activator">Comunidad<i class="material-icons right">more_vert</i></span>
+	    						<p><a href="https://github.com/nerdale/comunidad-sostenible" target="_blank">CODE</a> <a href="https://nerdale.github.io/comunidad-sostenible/" target="_blank">DEMO</a></p>
+	    					</div>
+	    					<div class="card-reveal">
+	      						<span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+	      						<p>Project made with HTML 5 and CSS3.</p>
+	    					</div>
+	  					</div>
+	        		</div>	
+	        		<div class="col s12 m4">
+	  					<div class="card">
+	    					<div class="card-image waves-effect waves-block waves-light">
+	    						<img class="activator" src="img/code-girl.png">
+	    					</div>
+	    					<div class="card-content">
+	    						<span class="card-title activator">Coder Girls<i class="material-icons right">more_vert</i></span>
+	    						<p><a href="https://github.com/nerdale/coder-girl" target="_blank">CODE</a> <a href="https://nerdale.github.io/coder-girl/" target="_blank">DEMO</a></p>
+	    					</div>
+	    					<div class="card-reveal">
+	      						<span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+	      						<p>Project made with HTML 5 and Bootstrap.</p>
+	    					</div>
+	  					</div>
+	        		</div>     		        		
+	      		</div> 				
+		</div>	
 	</section>
 	<!-- ADDING CONTACT ME -->
-	<section class="background-four">
-		<div class="container" id="contact">
+	<section class="background-four" id="contact">
+		<div class="container">
 			<div class="row">
 				<div class="col m12 col s12 center-align title-contact">
-					<h1>&#60;CONTACT&#62;</h1>
+					<h1>CONTACT</h1>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col m12 col s12 center-align contactme">
+					<h4>You want to imagine, create and develop?</h4>
 					<h5>Feel free to contact me</h5>
 					<a href="mailto:alexandra.neira@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
 					<a href="https://github.com/nerdale" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a>
 					<a href="https://www.linkedin.com/in/alexandraneira" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
 				</div>
 			</div>
+			<div class="row">
+				<div class="col m12 center-align">
+					<h5 class="cv">Download CV</h5>
+					<a href="docs/CV_AlexandraNeira2015.pdf" download class="btn-floating btn waves-effect waves-light"><i class="material-icons">file_download</i></a>
+				</div>
+			</div>
 		</div>
 	</section>
 	<!-- ADDING FOOTER -->
-	<footer class="foot">
+	<footer>
 		<div class="container center-align">
 			<h6>Developed by Alexandra Neira | Laboratoria 2016</h6>
 		</div>
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script type='text/javascript' src='js/typed.js'></script>
+	<script type='text/javascript' src='js/particles.js'></script>
+	<script type='text/javascript' src='js/particulas.js'></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 	<script type='text/javascript' src='js/main.js'></script>
 </body>

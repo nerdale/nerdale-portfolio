@@ -159,14 +159,10 @@
 							// instead of using global arrayPos
 							self.typewrite(self.strings[self.arrayPos], curStrPos);
 						}
-
 				// humanized value for typing
 				}, humanize);	
-
 			}
-
 		}
-
 	$.fn.typed = function (option) {
 	    return this.each(function () {
 	      var $this = $(this)
@@ -176,16 +172,4 @@
 	      if (typeof option == 'string') data[option]()
 	    });
 	}
-
-	$.fn.typed.defaults = {
-		strings: ["These are the default values...", "You know what you should do?", "Use your own!", "Have a great day!"],
-		// typing and backspacing speed
-		typeSpeed: 0,
-		// time before backspacing
-		backDelay: 500,
-		// ending callback function
-		callback: function(){ null }
-	}
-
-
 }(window.jQuery);
