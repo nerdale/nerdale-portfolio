@@ -1,0 +1,26 @@
+@media only screen and (max-width : 480px){
+	.text{
+		font-size: 30px;
+	}
+	.heart{
+	font-size: 25px;
+	}
+	.box-one{
+    height: 700px;
+    padding-top: 0;
+	}
+	.box-info{
+	height: 920px;
+	}
+	#skills{
+    height: auto;
+	}
+	.gif{
+	width: 80%;
+	padding-top: 0;
+	}
+	.fa{
+	font-size: 40px;
+	margin: 0 2rem;
+	}
+}
