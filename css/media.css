@@ -2,6 +2,10 @@
 	.text{
 		font-size: 26px;
 	}
+	.logotype {
+		margin-top: 0.5rem;
+		width: 50px;
+	}
 	.heart{
 		font-size: 22px;
 	}

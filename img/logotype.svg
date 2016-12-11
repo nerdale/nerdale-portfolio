@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 200 60" style="enable-background:new 0 0 200 60;" xml:space="preserve">
+	 viewBox="0 0 208.5 178.5" style="enable-background:new 0 0 208.5 178.5;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#F6F6F7;}
-	.st1{font-family:'Helvetica-Light';}
-	.st2{font-size:29.3718px;}
-	.st3{font-family:'FiraSans-Book';}
-	.st4{font-size:10.3495px;}
-	.st5{font-family:'FiraSans-Light';}
-	.st6{font-size:13.1943px;}
+	.st0{fill:#E1BBC5;}
+	.st1{fill:#E2C9CF;}
+	.st2{fill:#FFFFFF;}
 </style>
-<g>
-	<text id="XMLID_5_" transform="matrix(1 0 0 1 13.0235 40.0273)" class="st0 st1 st2">ALEXANDRA</text>
-	<g>
-		<polygon id="XMLID_4_" class="st0" points="76.9,50.5 9.6,50.5 9.6,10 84,10 84,7.5 6.4,7.5 6.4,53 76.9,53 		"/>
-		<polygon id="XMLID_3_" class="st0" points="116.6,7.5 116.6,10 189.7,10 189.7,50.5 117.1,50.5 117.1,53 192.9,53 192.9,7.5 		"/>
-	</g>
-	<g id="XMLID_2_">
-		<text id="XMLID_47_" transform="matrix(0.8486 0 0 1 81.15 54.416)" class="st0 st3 st4">&lt;CODE&gt;</text>
-	</g>
-	<g id="XMLID_1_">
-		<text id="XMLID_48_" transform="matrix(0.8486 0 0 1 86.8902 13.374)" class="st0 st5 st6">100%</text>
-	</g>
+<g id="XMLID_1_">
+	<polygon id="XMLID_8_" class="st0" points="126.6,13.1 199.9,170.7 151.6,170.7 97.6,55.4 	"/>
+	<polygon id="XMLID_7_" class="st1" points="108.9,136.1 124.6,170.7 41.9,170.7 41.9,136.1 	"/>
+	<polygon id="XMLID_6_" class="st2" points="11.2,135.7 77.9,13.1 126.6,13.1 41.9,170.7 	"/>
 </g>
 </svg>

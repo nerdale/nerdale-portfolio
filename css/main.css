@@ -29,8 +29,8 @@ nav{
 nav ul a.active {
   background: rgba(0,0,0,0.2);
 }
-.brand-logo img{
-	width: 150px;
+.logotype {
+	width: 60px;
 	margin-top: 0.5rem;
 }
 #particles-js{
