@@ -3,9 +3,9 @@ $( document ).ready(function(){
 	$('.button-collapse').sideNav();
 	//type effect
     $('span.text-change').typed({
-        strings: ["Dev.", "Design", "<CODE>"],
-        typeSpeed: 60, // typing speed
-        backDelay: 600, // pause before backspacing
+        strings: ["Dev.", "Design", "<CODE>"], //array text
+        typeSpeed: 60,
+        backDelay: 600,
         callback: function () { $(this) }
     });
     //smooth scrolling
@@ -22,10 +22,9 @@ $( document ).ready(function(){
        		}
    		});
 	});
+    //scroll spy
     $('.scrollspy').scrollSpy();
-    $('.smoo').smoove({opacity: "0",  moveY   : "90px",});
-	$('.tooltipped').tooltip({delay: 50});
-
-
+    //smoove transition
+    $('.smoo').smoove({opacity: '0',  moveY: '90px',});
 });
 

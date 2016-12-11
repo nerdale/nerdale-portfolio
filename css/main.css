@@ -21,8 +21,7 @@
   -moz-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite;
 }
-
-/*NAV */
+/* NAV STYLES */
 nav{
 	background-color: #E1004B !important;
 }
@@ -52,7 +51,7 @@ nav ul a.active {
     top: 50%;
     transform: translate(-50%, -50%);
 }
-/*ABOUT ME*/
+/* ABOUT ME STYLES */
 .box-info{
 	width: 100%;
 	height: 100vh;
@@ -94,7 +93,7 @@ nav ul a.active {
 	background-color: #FFF;
 	color: #E1004B;
 }
-/*SKILLS*/
+/* SKILLS STYLES */
 #skills{
     width: 100%;
     height: 100vh;
@@ -153,7 +152,7 @@ nav ul a.active {
 .js:hover{
 	color: #FFD726;
 }
-/* PROJECTS */
+/* PROJECTS STYLES */
 .background-three{
 	width: 100%;
 	height: auto;
@@ -176,7 +175,7 @@ nav ul a.active {
 	color: #181624;
 }
 
-/* CONTACT */
+/* CONTACT STYLES */
 .background-four{
 	width: 100%;
 	height: auto;
@@ -210,8 +209,7 @@ nav ul a.active {
 	background-color: #E1004B !important;
 	padding-bottom: 2rem;
 }
-
-/* FOOTER */
+/* FOOTER STYLES */
 footer{
 	background-color: #E1004B;
 	height: 3.5rem;
