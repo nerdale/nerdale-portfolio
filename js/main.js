@@ -1,6 +1,11 @@
 $( document ).ready(function(){
 	//side nav bar
-	$('.button-collapse').sideNav();
+    $('.button-collapse').sideNav({
+    menuWidth: 170, 
+    edge: 'left', 
+    closeOnClick: true, 
+    draggable: true
+    });
 	//type effect
     $('span.text-change').typed({
         strings: ["Dev.", "Design", "<CODE>"], //array text
@@ -25,6 +30,6 @@ $( document ).ready(function(){
     //scroll spy
     $('.scrollspy').scrollSpy();
     //smoove transition
-    $('.smoo').smoove({opacity: '0',  moveY: '90px',});
+    $('.smoo').smoove({opacity:'0', moveY: '90px',});
 });
 
