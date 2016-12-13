@@ -9,15 +9,9 @@
 	.heart{
 		font-size: 22px;
 	}
-	.box-one{
-    	height: 710px;
-    	padding-top: 0;
-	}
 	.box-info{
 		height: auto;
-	}
-	#skills{
-    	height: auto;
+		padding-top: 2rem;
 	}
 	.gif{
 		width: 80%;
@@ -32,5 +26,8 @@
 	}
 	h6{
 		font-size: 12px;
+	}
+	.tool{
+		text-align: center;
 	}
 }
