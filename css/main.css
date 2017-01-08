@@ -62,6 +62,7 @@ nav ul a.active {
 	color: #FFF;
 	font-weight: bold;
 	font-family: 'Raleway', sans-serif;
+	letter-spacing: 1.5px;
 }
 #about{
 	font-family: 'Raleway', sans-serif;
@@ -124,9 +125,6 @@ nav ul a.active {
 .css3:hover{
 	color: #1B73BA;
 }
-.git:hover{
-	color: #F34F29;
-}
 .jquery:hover{
 	color: #006BA9;
 }
@@ -141,6 +139,9 @@ nav ul a.active {
 }
 .js:hover{
 	color: #FFD726;
+}
+.sass:hover{
+	color: #CC6699;
 }
 /* PROJECTS STYLES */
 .background-three{
